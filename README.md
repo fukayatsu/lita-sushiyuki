@@ -2,6 +2,9 @@
 
 Give me :sushi:
 
+
+Inspired by [naoya/hubot-sushiyuki](https://github.com/naoya/hubot-sushiyuki)
+
 ## Installation
 
 Add this line to your lita's Gemfile:
