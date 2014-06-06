@@ -1,3 +1,9 @@
+寿司ゆき (SUSHIYUKI) - http://awayuki.net/sushiyuki/
+Copyright (c) 2014 awayuki. (CC BY-NC-ND 4.0)
+
+
+Source code:
+
 Copyright (c) 2014 fukayatsu
 
 MIT License

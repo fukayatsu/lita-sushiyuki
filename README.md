@@ -29,3 +29,8 @@ Lita: sushi list
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## SUSHIYUKI
+
+寿司ゆき (SUSHIYUKI) - http://awayuki.net/sushiyuki/
+Copyright (c) 2014 awayuki. (CC BY-NC-ND 4.0)
