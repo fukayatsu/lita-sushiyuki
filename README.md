@@ -1,10 +1,10 @@
 # Lita::Sushiyuki
 
-TODO: Write a gem description
+Give me sushi
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your lita's Gemfile:
 
     gem 'lita-sushiyuki'
 
@@ -12,13 +12,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install lita-sushiyuki
-
 ## Usage
 
-TODO: Write usage instructions here
+```
+Lita: sushi me ikura
+Lita: sushi ikura
+Lita: sushi ok
+Lita: sushi list
+...
+```
 
 ## Contributing
 
