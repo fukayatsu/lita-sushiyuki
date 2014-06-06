@@ -21,9 +21,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", ">= 3.1"
-  spec.add_runtime_dependency 'pebbles-suddenly_death_string', '~> 0.0.4'
-  spec.add_runtime_dependency 'flippy', '~> 0.1.2'
-  spec.add_runtime_dependency 'rufus-scheduler', '~> 3.0.7'
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
