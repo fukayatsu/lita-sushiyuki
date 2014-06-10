@@ -81,8 +81,7 @@ module Lita
         response.reply batch.join(', ') unless batch.empty?
       end
 
-      route /🍣|寿司|すし|スシ|ｽｼ/, :hear_sushi, command: false,
-        help: { "sushi list" => "list sushi" }
+      route /🍣|寿司|すし|スシ|ｽｼ/, :hear_sushi, command: false
       def hear_sushi(response)
         response.reply sushi_url(find_sushi('sneak')) if rand(5) == 0
       end
