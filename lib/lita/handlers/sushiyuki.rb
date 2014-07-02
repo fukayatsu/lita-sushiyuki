@@ -51,6 +51,11 @@ module Lita
         sushi[0]
       end
 
+      def random_sushi
+        sushi = SUSHI_MAP.to_a.sample
+        sushi[0]
+      end
+
       def sushi_url(filename)
         "https://d1zd1v0cxnbx2w.cloudfront.net/images/sets/sushiyuki/#{filename}.png"
       end
@@ -83,7 +88,7 @@ module Lita
 
       route /🍣|寿司|すし|スシ|ｽｼ/, :hear_sushi, command: false
       def hear_sushi(response)
-        response.reply sushi_url(find_sushi('sneak')) if rand(5) == 0
+        response.reply sushi_url(random_sushi) if rand(5) == 0
       end
     end
     Lita.register_handler(Sushiyuki)
