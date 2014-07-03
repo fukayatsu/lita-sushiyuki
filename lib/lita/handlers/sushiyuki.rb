@@ -88,7 +88,7 @@ module Lita
 
       route /🍣|寿司|すし|スシ|ｽｼ/, :hear_sushi, command: false
       def hear_sushi(response)
-        response.reply sushi_url(random_sushi) if rand(5) == 0
+        response.reply sushi_url(random_sushi) if rand(10) == 0
       end
     end
     Lita.register_handler(Sushiyuki)
